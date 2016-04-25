@@ -3,6 +3,12 @@
     <head>  
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
       <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+      <!-- Chrome, Firefox OS, Opera and Vivaldi -->
+      <meta name="theme-color" content="#ba68c8">
+      <!-- Windows Phone -->
+      <meta name="msapplication-navbutton-color" content="#ba68c8">
+      <!-- iOS Safari -->
+      <meta name="apple-mobile-web-app-status-bar-style" content="#ba68c8">
       <title>KmCoderz</title>
 
        <!-- CSS  -->      
@@ -321,21 +327,21 @@ available open source OpenGTS according to the need of user and developing Rest 
                         <div class="row">
                           <div class="col s12 m6 l6">
                             <div class="contact-form">
-                              <form>
+                              <form method="GET" action="mailto:mondal.kalyan1991@gmail.com" enctype="text/plain">
                                 <div class="input-field">
-                                  <input type="text" class="input-box" name="contactName" id="contact-name">
+                                  <input type="text" class="input-box" name="contactName" id="contact-name" required>
                                   <label class="input-label" for="contact-name">Name</label>
                                 </div>
                                 <div class="input-field">
-                                  <input type="email" class="input-box" name="contactEmail" id="email">
+                                  <input type="email" class="input-box" name="contactEmail" id="email" required>
                                   <label class="input-label" for="email">Email</label>
                                 </div>
                                 <div class="input-field">
-                                  <input type="text" class="input-box" name="contactSubject" id="subject">
+                                  <input type="text" class="input-box" name="contactSubject" id="subject" required>
                                   <label class="input-label" for="subject">Subject</label>
                                 </div>
                                 <div class="input-field textarea-input">
-                                  <textarea class="materialize-textarea" name="contactMessage" id="textarea1"></textarea>
+                                  <textarea class="materialize-textarea" name="contactMessage" id="textarea1" required></textarea>
                                   <label class="input-label" for="textarea1">Message</label>
                                 </div>
                                 <button class="left waves-effect btn-flat brand-text submit-btn" type="submit">send message</button>
